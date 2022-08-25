@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MissionControlComponent } from './missioncontrol/missioncontrol.component';
+import { AstronautComponent } from './astronaut/astronaut.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MissionControlComponent,
+    AstronautComponent
   ],
   imports: [
     BrowserModule,
